@@ -1,67 +1,101 @@
-<h1 align="center">Hey, I'm Himanshu Tiwari 👋</h1>
+<!-- Header -->
+<div align="center">
 
-<p align="center">
-  <b>AI Engineer & Full-Stack Developer</b><br/>
-  Building production-grade Voice AI, Agentic Systems & LLM Memory pipelines
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=1D9E75&center=true&vCenter=true&width=600&lines=Building+Voice+AI+%2B+Memory+Systems;Agentic+AI+%7C+Graph+RAG+%7C+Neo4j;2027+Batch+%40+IIIT+Bhagalpur" alt="Typing SVG" />
 
----
+<br/>
 
-## 🚀 About Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/himanshu-tiwari-97a738291/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1000%2B_solved-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/HimanshuTiwari206123/)
+[![GitHub](https://img.shields.io/badge/GitHub-himasnhu77-181717?style=flat-square&logo=github)](https://github.com/himasnhu77)
 
-- 🎓 B.Tech CSE @ IIIT Bhagalpur (2027 batch)
-- 🤖 Building **AI Calling Agents** with cross-call memory (Neo4j Graph RAG)
-- 🏢 Contributed architecture to **YC-backed startups** in GenAI & Agentic AI space
-- 🗣️ Deep work in **Speech-to-Speech** pipelines — STT (Deepgram), TTS (ElevenLabs), Voice Cloning
-- 🧠 Obsessed with **LLM Memory**, **MCP**, **n8n**, and Agentic AI workflows
-- 💻 **1000+ LeetCode problems** solved
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Who I Am
 
-**AI/ML**
-`LLMs` `RAG` `Graph RAG` `Neo4j` `Qdrant` `Ollama` `LangChain` `MCP`
+I'm a final-year CSE student at **IIIT Bhagalpur (2027)** who builds production-grade AI systems — not just toy demos.
 
-**Voice & Speech**
-`Deepgram STT` `ElevenLabs TTS` `Voice Cloning` `Twilio` `WebSockets`
+My core obsession: **voice AI + persistent memory**. I've shipped a multi-tenant calling agent where every conversation updates a live Neo4j knowledge graph — the AI actually remembers callers across sessions.
 
-**Backend**
-`Node.js` `Express` `Python` `FastAPI` `PostgreSQL` `Redis`
-
-**Infra & Automation**
-`AWS EC2` `PM2` `Nginx` `n8n` `Docker`
-
-**Frontend**
-`React.js` `TypeScript` `Next.js`
+I've contributed **architecture recommendations** to YC-backed startups in the GenAI and Agentic AI space, and I've gone deep on Speech-to-Speech pipelines, Graph RAG, MCP tooling, and LLM orchestration.
 
 ---
 
-## 🔥 Featured Projects
+## 🏗️ Signature Projects
 
-### 🎙️ [AI Calling Agent](https://github.com/himasnhu77/ai-calling-agent)
-> Production-grade voice AI agent with **cross-call memory**
+### 🎙️ [AI Calling Agent](https://github.com/himasnhu77/ai-calling-agent) — Production Voice AI with Graph Memory
 
-- Twilio media streams → Deepgram STT → Ollama LLM → ElevenLabs TTS
-- **Neo4j Aura** for graph-based caller memory across sessions
-- Tavily web search integration for real-time knowledge
-- Multi-tenant SaaS architecture deployed on **AWS EC2**
+> A real-time voice AI system where the agent **remembers every caller** using a Neo4j knowledge graph.
+
+**Full Stack:**
+```
+Twilio (media stream) → Deepgram nova-2-phonecall (STT)
+  → Ollama qwen2.5:1.5b (LLM reasoning)
+    → Neo4j Aura (Caller + Entity + Memory graph nodes)
+      → ElevenLabs cloned voice ulaw_8000 (TTS)
+        → Tavily (real-time web search)
+```
+
+**What makes it non-trivial:**
+- Cross-call memory: `Caller → REMEMBERS → Memory → ABOUT → Entity` graph
+- Multi-tenant architecture with per-tenant Neo4j isolation
+- Deployed on AWS EC2 (t3.medium) with PM2 + Nginx reverse proxy
+- Debugged Deepgram 1005 WebSocket closures + ElevenLabs stream buffering in prod
+
+---
 
 ### 🤖 [Multi-Agent Calling Orchestrator](https://github.com/himasnhu77/multi-calling-agent-with-knowledge-base-orchestrator-agent)
-> Orchestrator agent routing calls to specialist sub-agents with shared knowledge base
 
-### 🎤 [Voice Cloning](https://github.com/himasnhu77/VOICE-CLONING)
-> Custom voice cloning pipeline using ElevenLabs
+> Orchestrator agent that routes inbound calls to specialist sub-agents based on intent, with a shared knowledge base.
 
----
-
-## 📊 LeetCode Stats
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-1000%2B%20Problems-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/HimanshuTiwari206123/)
+- Intent classification → dynamic agent routing
+- Shared knowledge base across agent pool
+- Built for multi-domain call center use cases
 
 ---
 
-## 📫 Let's Connect
+### 🎤 [Voice Cloning Pipeline](https://github.com/himasnhu77/VOICE-CLONING)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/HimanshuTiwari206123/)
+> Custom voice cloning and synthesis pipeline using ElevenLabs API with ulaw_8000 output for telephony.
+
+---
+
+## ⚡ Technical Depth
+
+| Domain | Stack |
+|--------|-------|
+| **Voice AI** | Deepgram STT, ElevenLabs TTS, Voice Cloning, Twilio Media Streams |
+| **LLM & Memory** | Ollama, Neo4j Graph RAG, Qdrant, LangChain, MCP |
+| **Agentic AI** | Multi-agent orchestration, n8n, tool-use pipelines |
+| **Backend** | Node.js, Express, Python, FastAPI, WebSockets |
+| **Infra** | AWS EC2, PM2, Nginx, Docker, PostgreSQL, Redis |
+| **Frontend** | React.js, TypeScript, Next.js |
+
+---
+
+## 📊 Stats
+
+<div align="center">
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/HimanshuTiwari206123?theme=nord&font=Fira%20Code&ext=heatmap)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himasnhu77&show_icons=true&theme=dark&hide_border=true&count_private=true)
+
+</div>
+
+---
+
+## 🔍 What I'm Building Next
+
+- 📞 **AI Email Client** — replies in your voice using a cloned voice model + style RAG
+- 🎬 **Animano** — manga → cinematic shorts via multi-agent AI pipeline
+- 🔌 **CRM Copilot** — Chrome extension that auto-fills partner forms from CRM data during live calls
+
+---
+
+<div align="center">
+  <i>Open to referrals, collaborations, and conversations about AI infrastructure.</i><br/>
+  <b><a href="https://www.linkedin.com/in/himanshu-tiwari-97a738291/">Connect on LinkedIn ↗</a></b>
+</div>
