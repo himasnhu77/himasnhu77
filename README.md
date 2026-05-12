@@ -1,7 +1,7 @@
-<!-- Header -->
+# <!-- Header -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=1D9E75&center=true&vCenter=true&width=600&lines=Building+Voice+AI+%2B+Memory+Systems;Agentic+AI+%7C+Graph+RAG+%7C+Neo4j;2027+Batch+%40+IIIT+Bhagalpur" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=1D9E75&center=true&vCenter=true&width=600&lines=Building+Voice+AI+%2B+Memory+Systems;Agentic+AI+%7C+Graph+RAG+%7C+Neo4j;3rd+Year+CSE+%40+IIIT+Bhagalpur" alt="Typing SVG" />
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 ## 🧠 Who I Am
 
-I'm a final-year CSE student at **IIIT Bhagalpur (2027)** who builds production-grade AI systems — not just toy demos.
+I'm a 3rd-year CSE student at **IIIT Bhagalpur (2027)** who builds production-grade AI systems — not just toy demos.
 
 My core obsession: **voice AI + persistent memory**. I've shipped a multi-tenant calling agent where every conversation updates a live Neo4j knowledge graph — the AI actually remembers callers across sessions.
 
@@ -83,7 +83,36 @@ Twilio (media stream) → Deepgram nova-2-phonecall (STT)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himasnhu77&show_icons=true&theme=dark&hide_border=true&count_private=true)
 
+![GitHub Streak](https://streak-stats.demolab.com?user=himasnhu77&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=himasnhu77&layout=compact&theme=dark&hide_border=true&langs_count=8)
+
 </div>
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himasnhu77/himasnhu77/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himasnhu77/himasnhu77/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/himasnhu77/himasnhu77/output/github-snake.svg" />
+</picture>
+
+</div>
+
+> ⚙️ To enable the snake animation, add a GitHub Actions workflow — see [platane/snk](https://github.com/platane/snk) for setup.
+
+---
+
+## 🔭 Currently Exploring
+
+- 🧠 **Agentic memory architectures** — multi-hop reasoning over graph + vector hybrid stores
+- 🗣️ **Speech-to-Speech latency optimization** — sub-500ms end-to-end pipeline tuning
+- 🔗 **MCP (Model Context Protocol)** — building custom MCP servers for domain-specific tooling
+- 📡 **Real-time AI infra** — WebSocket orchestration, backpressure handling at scale
 
 ---
 
@@ -95,7 +124,19 @@ Twilio (media stream) → Deepgram nova-2-phonecall (STT)
 
 ---
 
+## 📬 Let's Connect
+
 <div align="center">
-  <i>Open to referrals, collaborations, and conversations about AI infrastructure.</i><br/>
-  <b><a href="https://www.linkedin.com/in/himanshu-tiwari-97a738291/">Connect on LinkedIn ↗</a></b>
+
+| Platform | Link |
+|----------|------|
+| 💼 LinkedIn | [himanshu-tiwari-97a738291](https://www.linkedin.com/in/himanshu-tiwari-97a738291/) |
+| 💻 GitHub | [himasnhu77](https://github.com/himasnhu77) |
+| 🧩 LeetCode | [HimanshuTiwari206123](https://leetcode.com/u/HimanshuTiwari206123/) |
+
+<br/>
+
+<i>Open to referrals, collaborations, and conversations about AI infrastructure.</i><br/>
+<b><a href="https://www.linkedin.com/in/himanshu-tiwari-97a738291/">Connect on LinkedIn ↗</a></b>
+
 </div>
